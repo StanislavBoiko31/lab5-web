@@ -1,0 +1,131 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-size: 24px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+}
+
+.high_box {
+    background-color: #e0e0e0;
+    font-size: 24px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+}
+
+.left-text-1, .right-text-1, .left-text-6, .right-text-6 {
+    margin: 0;
+    font-weight: normal;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    font-size: 24px;
+}
+
+.left-text-1, .left-text-6 {
+    font-size: 24px;
+    width: 70%;
+}
+
+.right-text-1, .right-text-6 {
+    font-size: 24px;
+    width: 25%;
+    text-align: right;
+}
+
+.content {
+    display: flex;
+    flex: 1;
+}
+
+.sidebar {
+    background-color: #e0e0e0;
+    flex: 1;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 10px;
+    text-align: right;
+    overflow: hidden;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+}
+
+.mid {
+    display: flex;
+    flex: 1;
+}
+
+.main {
+    background-color: #e0e0e0;
+    flex: 2;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+}
+
+.extra {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.box4, .box5 {
+    flex-grow: 1;
+    display: flex;
+    overflow: auto;
+    background-color: #e0e0e0;
+    justify-content: left;
+    align-items: center;
+    text-align: left;
+}
+
+
+.low_box {
+    background-color: #e0e0e0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.left-text-6{
+    width: 70%;
+    text-align: left;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    align-self: start;
+}
+.box {
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+ul {
+    padding: 8%;
+    margin: 0;
+    list-style-type: circle;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+}
+
+a:hover {
+    color: blue;
+    text-decoration: underline;
+}
